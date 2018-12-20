@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161590" started-at="2018-12-19T19:39:11Z" finished-at="2018-12-19T19:41:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161590" started-at="2018-12-19T19:39:11Z" finished-at="2018-12-19T19:41:53Z">
+      <class name="com.abhibus_User_Scripts.LoginLogoutTC_101">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="startTest" is-config="true" duration-ms="587" started-at="2018-12-19T19:39:11Z" finished-at="2018-12-19T19:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="preConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="preConfig" is-config="true" duration-ms="48395" started-at="2018-12-19T19:39:12Z" finished-at="2018-12-19T19:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method status="PASS" signature="testLoginLogoutTC_101()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="testLoginLogoutTC_101" duration-ms="8220" started-at="2018-12-19T19:40:00Z" finished-at="2018-12-19T19:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogoutTC_101 -->
+        <test-method status="PASS" signature="postConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="postConfig" is-config="true" duration-ms="12874" started-at="2018-12-19T19:40:09Z" finished-at="2018-12-19T19:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method status="PASS" signature="preConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="preConfig" is-config="true" duration-ms="17875" started-at="2018-12-19T19:40:21Z" finished-at="2018-12-19T19:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method status="PASS" signature="testLoginLogoutTC_101()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="testLoginLogoutTC_101" duration-ms="3097" started-at="2018-12-19T19:40:39Z" finished-at="2018-12-19T19:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogoutTC_101 -->
+        <test-method status="PASS" signature="postConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="postConfig" is-config="true" duration-ms="2578" started-at="2018-12-19T19:40:42Z" finished-at="2018-12-19T19:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method status="PASS" signature="preConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="preConfig" is-config="true" duration-ms="14893" started-at="2018-12-19T19:40:45Z" finished-at="2018-12-19T19:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method status="PASS" signature="testLoginLogoutTC_101()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="testLoginLogoutTC_101" duration-ms="4350" started-at="2018-12-19T19:41:00Z" finished-at="2018-12-19T19:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogoutTC_101 -->
+        <test-method status="PASS" signature="postConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="postConfig" is-config="true" duration-ms="2894" started-at="2018-12-19T19:41:04Z" finished-at="2018-12-19T19:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method status="PASS" signature="preConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="preConfig" is-config="true" duration-ms="14683" started-at="2018-12-19T19:41:07Z" finished-at="2018-12-19T19:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method status="PASS" signature="testLoginLogoutTC_101()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="testLoginLogoutTC_101" duration-ms="2464" started-at="2018-12-19T19:41:22Z" finished-at="2018-12-19T19:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogoutTC_101 -->
+        <test-method status="PASS" signature="postConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="postConfig" is-config="true" duration-ms="2822" started-at="2018-12-19T19:41:24Z" finished-at="2018-12-19T19:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method status="PASS" signature="preConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="preConfig" is-config="true" duration-ms="14281" started-at="2018-12-19T19:41:27Z" finished-at="2018-12-19T19:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfig -->
+        <test-method status="PASS" signature="testLoginLogoutTC_101()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="testLoginLogoutTC_101" duration-ms="3820" started-at="2018-12-19T19:41:41Z" finished-at="2018-12-19T19:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogoutTC_101 -->
+        <test-method status="PASS" signature="postConfig()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="postConfig" is-config="true" duration-ms="4394" started-at="2018-12-19T19:41:45Z" finished-at="2018-12-19T19:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfig -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.abhibus_User_Scripts.LoginLogoutTC_101@6a4f787b]" name="endTest" is-config="true" duration-ms="3279" started-at="2018-12-19T19:41:50Z" finished-at="2018-12-19T19:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.abhibus_User_Scripts.LoginLogoutTC_101 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

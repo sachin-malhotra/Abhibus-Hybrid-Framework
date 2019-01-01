@@ -21,10 +21,17 @@ public class SuperPage
 	private WebElement signoutLink;
 	@FindBy(xpath="//*[text()='Hello Sachin,']")
 	private WebElement helloMessege;
-	
+	@FindBy(xpath="//div[@id='gmg_wp_notif']")
+	private WebElement notificationpopup;
+	@FindBy(xpath="//div[9]/div[2]/button[1]")
+	private WebElement laterButton;
 	public SuperPage()
 	{
 		PageFactory.initElements(SuperTestScript.driver,this);
+	}
+	public void clickOnNotificationPopupLaterButton()
+	{
+		
 	}
 	public void clickOnLoginRegisterLink()
 	{

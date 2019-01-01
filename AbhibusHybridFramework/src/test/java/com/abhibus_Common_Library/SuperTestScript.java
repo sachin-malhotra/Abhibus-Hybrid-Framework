@@ -7,8 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -37,6 +39,11 @@ public abstract class SuperTestScript
 		{
 			System.setProperty("webdriver.gecko.driver", "./src/test/resources/thirdPartyExe/geckodriver.exe");
 			driver = new FirefoxDriver();
+			FirefoxProfile profile = new FirefoxProfile();
+			profile.setPreference("permissions.default.desktop-notification", 1);
+			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			capabilities.setCapability(FirefoxDriver.PROFILE, profile);
+			
 		}
 		else if(browserType.equalsIgnoreCase("GC"))
 		{

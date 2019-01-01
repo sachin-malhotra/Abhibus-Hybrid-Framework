@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.abhibus_User_Scripts.LoginLogoutTC_101">
+      <class name="com.abhibus_User_Scripts.BookBusticket_TC_103">
         <methods>
           <include name="endTest"/>
           <include name="postConfig"/>
+          <include name="testBookBusticket_TC_103"/>
           <include name="startTest"/>
           <include name="preConfig"/>
-          <include name="testLoginLogoutTC_101"/>
         </methods>
-      </class> <!-- com.abhibus_User_Scripts.LoginLogoutTC_101 -->
+      </class> <!-- com.abhibus_User_Scripts.BookBusticket_TC_103 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
